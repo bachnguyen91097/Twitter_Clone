@@ -1,0 +1,268 @@
+.wd-explore-bg-color
+{background-color: black;}
+
+.wd-explore-border {
+ width: 45%;
+ border-color: rgb(47,51,54);
+ border-style: solid;
+ border-width: 1px;
+ margin-left: 27%;
+ margin-right: 30%
+}
+
+.wd-explore-search-bar {
+ border-radius: 16px;
+ border-style: none;
+ width: 82%;
+ height: 25px;
+ outline: none ;
+ background-color: rgb(47,51,54);
+ color: white;
+ margin-left: 16px;
+ padding: 5px;
+ position: relative;
+ top:3px;
+}
+
+.wd-explore-gear-icon {
+ margin-right: 12px;
+ color: deepskyblue;
+ float: right;
+ margin-top: 10px;
+}
+
+.wd-explore-box-for-tab {
+ border: 1px rgb(47,51,54) solid;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ border-bottom: white;
+ padding: 16px;
+ padding-left: 0px;
+}
+
+.wd-explore-foryou-tab {
+ text-decoration: none ;
+ color: rgb(29, 161, 242);
+ font-size: 15px;
+ padding: 16px;
+ font-weight: bold;
+ font-family: "Helvetica Neue";
+}
+
+
+.wd-explore-other-tab {
+ text-decoration: none ;
+ color: rgb(110, 118, 125);
+ font-size: 15px;
+ padding: 16px;
+ font-weight: bold;
+ font-family: "Helvetica Neue";
+}
+
+.wd-explore-blue-rounded-corner-bar {
+ border-radius: 5px;
+ border: 2px solid rgb(29, 161, 242);
+ height: 0;
+ width: 8%;
+ margin-left: 16px;
+}
+
+
+.wd-explore-divide-box{
+ border: 1px rgb(47,51,54) solid;
+ border-right: none;
+ border-left: none;
+ border-top-width: 2px;
+ height: 12px;
+ background-color: rgb(47,51,54);
+}
+
+.wd-explore-post-box{
+ border: 1px rgb(47,51,54) solid;
+ border-right: none;
+ border-left: none;
+ border-top: none;
+ padding-left: 16px;
+ overflow: hidden;
+}
+
+.wd-explore-c-post-topic {
+ font-family: "Helvetica Neue";
+ font-size: 13px;
+ color: rgb(110, 118, 125);
+}
+.wd-explore-c-post-link {
+ font-family: "Helvetica Neue";
+ text-decoration: none ;
+ font-size: 15px;
+ color: white;
+ font-weight: bold;
+}
+
+.wd-icon {
+ height: 15px;
+ width: 15px;
+ border-radius: 50%;
+ margin-top: 16px;
+ position: relative;
+ top:3px
+}
+
+.wd-explore-d-post-author {
+ font-weight: bold;
+ font-size: 13px;
+ font-family: "Helvetica Neue";
+ margin-bottom: 10px;
+ color: white;
+ text-decoration: none ;
+ position: relative;
+ bottom: 1px;
+}
+
+.wd-image-d {
+ width: 100px;
+ height: 100px;
+ border-radius: 30px;
+ padding: 16px;
+ float: right;
+}
+
+.wd-bookmark-border{
+ border-color: rgb(110, 118, 125);
+
+ border-width: 1px;
+ border-style: solid;
+ margin-left: 25%;
+ margin-right: 31%;
+
+}
+
+.wd-bookmark-title
+{
+ margin-left: 16px;
+ margin-top: 12px;
+ margin-bottom: 0px;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.wd-bookmark-handle-user
+{
+ color: rgb(110, 118, 125);
+ margin-left: 16px;
+ font-size: 13px;
+ margin-top: 0px;
+}
+
+.wd-bookmark-breakline {
+ margin-top: 12px;
+ border-color: rgb(110, 118, 125);
+ border-width: 1px;
+ border-style: solid;
+}
+
+.wd-bookmark-user-avatar
+{
+ margin-left: 16px;
+ margin-top: 12px;
+ border-radius: 50%;
+ width: 48px;
+ height: 48px;
+}
+
+.wd-bookmark-user {
+ position: relative;
+ left: 12px;
+ bottom: 34px;
+ font-size: 15px;
+ color: white;
+ font-weight: bold;
+}
+
+.wd-bookmark-more-user-handle
+{
+ font-size: 15px;
+ color: rgb(110, 118, 125);
+ position: relative;
+ left: 12px;
+ bottom: 34px;
+}
+
+.wd-bookmark-post
+{
+ position: relative;
+ color: white;
+ font-size: 15px;
+ width: 506px;
+ margin-right: 16px;
+ margin-left: 80px;
+ bottom: 42px;
+ margin-bottom: 0px;
+}
+
+.wd-bookmark-post-border {
+ border-color: rgb(110, 118, 125);
+ border-width: 1px;
+ border-style: solid;
+ width: 504px;
+ margin-left: 72px;
+ margin-top: -28px;
+ border-radius: 20px;
+}
+
+.wd-bookmark-image{
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+
+.wd-bookmark-post-title{
+ color: white;
+ font-size: 15px;
+ margin-top: 12px;
+ margin-left: 12px;
+}
+
+.wd-bookmark-post-text{
+ color: rgb(110, 118, 125);
+ font-size: 15px;
+ margin-left: 12px;
+}
+
+.wd-bookmark-link-icon{
+ position: relative;
+ color: rgb(110, 118, 125);
+ margin-left:6px;
+ margin-bottom:10px;
+ text-decoration: none;
+}
+
+.wd-bookmark-icon {
+ position: relative;
+ color: rgb(110, 118, 125);
+ padding-top: 12px;
+ padding-bottom: 12px;
+ padding-left: 36px;
+ text-decoration: none;
+}
+
+.wd-bookmark-number {
+ color: rgb(110, 118, 125);
+ margin-left: 12px;
+ margin-top: 12px;
+ text-decoration: none;
+}
+
+.wd-bookmark-number-heart {
+ color: red;
+ margin-left: 12px;
+ margin-top: 12px;
+ text-decoration: none;
+}
+
+.fa-heart {
+ color: red;
+}
+
+
