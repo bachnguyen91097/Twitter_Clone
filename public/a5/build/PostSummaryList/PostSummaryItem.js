@@ -3,7 +3,7 @@ const PostSummaryItem = (post) => {
         <li class="list-group-item">
             <div class="row">
                 <div class="col-9 col-md-10">
-                    <div class="text-muted">${post.topic}</div>
+                    <div class="wd-under-text-color">${post.topic}</div>
                     <div>
                         <span class="fw-bold">
                             ${post.userName}
@@ -11,7 +11,7 @@ const PostSummaryItem = (post) => {
                         <span>
                           <i class="fas fa-check-circle fa-inverse"></i>
                         </span>
-                        <span class="text-muted">
+                        <span class="wd-under-text-color">
                          - ${post.time}
                         </span>
                     </div>

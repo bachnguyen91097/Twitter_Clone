@@ -6,12 +6,12 @@ const NavigationSidebar = (active) => {
                 <i class="fab fa-twitter"></i>
             </a>
             <a class="list-group-item ${active === 'home' ? 'active' : ''}"
-                href="../HomeScreen/home.html">
+                href="../HomeScreen/index.html">
                 <i class="fa fa-home"></i>
                 <span class="d-none d-xl-inline">Home</span>
             </a>
             <a class="list-group-item ${active === 'explore' ? 'active' : ''}"
-                href="../ExploreScreen/explore.html">
+                href="../ExploreScreen/index.html">
                 <i class="fa fa-hashtag"></i>
                 <span class="d-none d-xl-inline">Explore</span>
             </a>

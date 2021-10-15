@@ -16,7 +16,7 @@ const PostItem = (post) => {
                       <span class="ps-2">
                         <i class="fas fa-check-circle fa-inverse"></i>
                       </span>
-                      <span class="text-muted ps-1">
+                      <span class="wd-under-text-color ps-1">
                         @${post.handle} &middot ${post.time}
                       </span>
                       <span class="float-end">
@@ -34,24 +34,24 @@ const PostItem = (post) => {
                         <div class="pt-2 ps-3 pe-3">
                             ${post.postheadline}
                         </div>
-                        <div class="text-muted ps-3 pe-3 ">
+                        <div class="wd-under-text-color ps-3 pe-3 ">
                             ${post.postcontent}
                         </div>
-                        <div class = "text-muted pb-2 ps-3 pe-3">
+                        <div class = "wd-under-text-color pb-2 ps-3 pe-3">
                             <i class="fas fa-link"></i> ${post.postlink}
                         </div>
                       </div>
                       <div class="row mt-3 mb-2">
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = "far fa-comment me-2"></i> ${post.numcomments}
                         </div>
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = " fas fa-retweet me-2"></i> ${post.numretweets}
                         </div>
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = "far fa-heart me-2"></i> ${post.numlikes}
                         </div>
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = "fas fa-upload"></i>
                         </div>
                       </div>
@@ -78,7 +78,7 @@ const PostItem = (post) => {
                       <span class="ps-2">
                         <i class="fas fa-check-circle fa-inverse"></i>
                       </span>
-                      <span class="text-muted ps-1">
+                      <span class="wd-under-text-color ps-1">
                         @${post.handle} &middot ${post.time}
                       </span>
                       <span class="float-end">
@@ -95,16 +95,16 @@ const PostItem = (post) => {
                         </div>
                       </div>
                       <div class="row mt-3 mb-2">
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = "far fa-comment me-2"></i> ${post.numcomments}
                         </div>
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = " fas fa-retweet me-2"></i> ${post.numretweets}
                         </div>
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = "far fa-heart me-2"></i> ${post.numlikes}
                         </div>
-                        <div class="col-3 text-muted">
+                        <div class="col-3 wd-under-text-color">
                             <i class = "fas fa-upload"></i>
                         </div>
                       </div>
