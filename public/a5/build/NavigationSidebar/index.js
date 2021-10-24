@@ -13,7 +13,7 @@ const NavigationSidebar = (active) => {
             <a class="list-group-item ${active === 'explore' ? 'active' : ''}"
                 href="../ExploreScreen/index.html">
                 <i class="fa fa-hashtag"></i>
-                <span class="d-none d-xl-inline">Explore</span>
+                 <span class="d-none d-xl-inline">Explore</span>
             </a>
             <a class="list-group-item ${active === 'notifications' ? 'active' : ''}"
                 href="notifications.html">
