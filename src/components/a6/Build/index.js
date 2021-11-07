@@ -2,14 +2,10 @@ import React from "react";
 import ExploreScreen from "./ExploreScreen";
 
 
-const Build = () => {
+const A6Build = () => {
     return (
-
-        <>
-        <h1>Build</h1>
-            <ExploreScreen/>
-        </>
+        <ExploreScreen/>
     )
 };
 
-export default Build;
+export default A6Build;

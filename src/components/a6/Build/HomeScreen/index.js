@@ -2,7 +2,7 @@ import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/index.js";
 import PostList from "../PostList/index.js";
 
-const HomeScreen = () => {
+const A6HomeScreen = () => {
     return (
     <div className="row mt-2">
         <div className="col-2 col-md-2 col-lg-1 col-xl-2">
@@ -21,4 +21,4 @@ const HomeScreen = () => {
     );
 };
 
-export default HomeScreen;
+export default A6HomeScreen;

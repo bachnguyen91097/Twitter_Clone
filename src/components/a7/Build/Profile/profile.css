@@ -1,0 +1,84 @@
+.wd-back-button {
+    background-color: black;
+    border: none;
+    position: center;
+}
+
+.wd-username {
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+
+.wd-username-2 {
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    top: -40px;
+    color: white;
+}
+
+.wd-number-of-tweets {
+    font-size: smaller;
+    color: rgb(110, 118, 125);
+}
+
+.wd-banner-image {
+    height: 200px;
+}
+
+.wd-profile-pic {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
+.wd-handle {
+    font-size: smaller;
+    position: relative;
+    top: -40px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-edit-btn {
+    background-color: black;
+    border-color: rgb(110, 118, 125);
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    color: darkgray;
+    border-width: 0.5px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.wd-bio {
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+
+.wd-location-time {
+    position: relative;
+    bottom: 25px;
+    font-size: small;
+}
+
+.wd-follow {
+    position: relative;
+    bottom: 20px;
+    font-size: small;
+}
+
+.wd-follow-font {
+    color: white;
+    font-weight: bolder;
+}

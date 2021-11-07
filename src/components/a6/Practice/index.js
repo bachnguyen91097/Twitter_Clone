@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import Classes from "./Classes";
 import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
@@ -7,7 +6,7 @@ import TodoList from "./Todo/TodoList";
 
 
 
-const Practice = () => {
+const A6Practice = () => {
     return (
         <>
         <h1>Practice</h1>
@@ -19,4 +18,4 @@ const Practice = () => {
     )
 };
 
-export default Practice;
+export default A6Practice;

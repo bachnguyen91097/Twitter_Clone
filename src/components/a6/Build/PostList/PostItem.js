@@ -17,7 +17,7 @@ const PostItem = ({post}) => {
                         {post.username}
                       </span>
                       <span className="ps-2">
-                        <i className="fas fa-check-circle fa-inverse"></i>
+
                       </span>
                       <span className="wd-under-text-color ps-1">
                         @{post.handle}  {'\u00B7'} {post.time}
