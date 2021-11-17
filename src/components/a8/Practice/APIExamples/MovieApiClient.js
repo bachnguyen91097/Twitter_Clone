@@ -5,7 +5,7 @@ const MovieApiClient = () => {
     const onMovieTitleChange = (event) =>
         setMovie({...movie, title: event.target.value});
     const createMovieClickHandler = () =>
-        fetch('http://localhost:4000/api/movies', {
+        fetch('https://web-dev-node-bb.herokuapp.com/api/movies', {
             method: 'POST',
             body: JSON.stringify(movie),
             headers: {
