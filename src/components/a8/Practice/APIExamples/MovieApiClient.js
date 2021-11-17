@@ -18,19 +18,19 @@ const MovieApiClient = () => {
 
     const [movies, setMovies] = useState([]);
     const deleteMovie = (movie) =>
-        fetch(`http://localhost:4000/api/movies/${movie._id}`, {
+        fetch(`https://web-dev-node-bb.herokuapp.com/api/movies/${movie._id}`, {
             method: 'DELETE'
         })
             .then(response => response.json())
             .then(movies => setMovies(movies));
 
     useEffect(() =>
-            fetch('http://localhost:4000/api/movies')
+            fetch('https://web-dev-node-bb.herokuapp.com/api/movies')
                 .then(response => response.json())
                 .then(movies => setMovies(movies))
         , []);
     const saveMovie = () =>
-        fetch(`http://localhost:4000/api/movies/${movie._id}`, {
+        fetch(`https://web-dev-node-bb.herokuapp.com/api/movies/${movie._id}`, {
             method: 'PUT',
             body: JSON.stringify(movie),
             headers: {
