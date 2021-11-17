@@ -1,7 +1,5 @@
-import React, {useState} from "react";
-import {useSelector, useDispatch} from "react-redux";
+import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
-import Profile from "../Profile";
 import TweetList from "../TweetList";
 import PostSummaryList from "../PostSummaryList";
 import EditProfileComponent from "./EditProfileComponent";

@@ -1,9 +1,9 @@
 import React from "react";
 import ExploreScreen from "./ExploreScreen";
 import {Route} from "react-router-dom";
-import who from "../../../reducers/who";
-import tweets from "../../../reducers/tweets";
-import profile from "../../../reducers/profile";
+import who from "./reducer-a7/who";
+import tweets from "./reducer-a7/tweets";
+import profile from "./reducer-a7/profile";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import ProfileScreen from "./ProfileScreen";

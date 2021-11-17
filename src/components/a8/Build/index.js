@@ -1,8 +1,8 @@
 import React from "react";
 import {Route} from "react-router-dom";
-import who from "../../../reducers/who";
-import tweets from "../../../reducers/tweets";
-import profile from "../../../reducers/profile";
+import who from "./reducers-a8/who";
+import tweets from "./reducers-a8/tweets";
+import profile from "./reducers-a8/profile";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import A8HomeScreen from "./HomeScreen";
