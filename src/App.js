@@ -11,10 +11,13 @@ import A6HomeScreen from "./components/a6/Build/HomeScreen";
 import A6 from "./components/a6";
 import A6Build from "./components/a6/Build";
 
-
 import A7Practice from "./components/a7/Practice";
 import A7 from "./components/a7";
-import Build from "./components/a7/Build";
+import A7Build from "./components/a7/Build";
+
+import A8Practice from "./components/a8/Practice";
+import A8 from "./components/a8";
+import A8Build from "./components/a8/Build";
 
 function App() {
   return (
@@ -37,13 +40,21 @@ function App() {
               <Route path="/a7/practice" exact={true}>
                   <A7Practice/>
               </Route>
-
               <Route path="/a7/twitter">
-                  <Build/>
+                  <A7Build/>
+              </Route>
+
+              <Route path="/a8/practice" exact={true}>
+                 <A8Practice/>
+              </Route>
+              <Route path="/a8/twitter">
+                  <A8Build/>
               </Route>
 
               <Route path="/" exact={true}>
+                  <A8/>
                   <A7/>
+                  <hr/>
                   <A6/>
                   <hr/>
                   <History/>

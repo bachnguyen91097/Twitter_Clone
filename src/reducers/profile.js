@@ -2,7 +2,10 @@ import profileJson from './data/profile.json';
 
 const profile = (state = profileJson, action) => {
     switch (action.type) {
-        case 'update-profile':
+        case 'get-current-profile':
+            return action.profile;
+            break;
+        case 'update-current-profile':
             const newState = {
                 ...state,
                 name: action.newProfile.name,
