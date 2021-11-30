@@ -1,0 +1,20 @@
+.wd-save-button {
+    float: right;
+    font-weight: bolder;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    bottom: 30px;
+}
+
+.form-control {
+    background: transparent;
+    color: white;
+    border-color: dimgray;
+    border-width: thin;
+
+}
+
+.wd-no-padding {
+    padding: 0px;
+}

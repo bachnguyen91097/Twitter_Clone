@@ -1,0 +1,8 @@
+{
+  "name": "The Great Chipmunk",	"handle": "just_a_chipmunk",
+  "profilePicture": "../../images2/chipmunk.jpeg", 	"bannerPicture": "../../images2/final-cover-forest.jpeg",
+  "bio": "Picking Nuts Full-Time, Actor By Night, Cute Animal By Day",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",	"dateOfBirth": "October 9, 1997",	"dateJoined": "4/2009",
+  "numberTweets": 910 ,"followingCount": 312,	"followersCount": 180
+}

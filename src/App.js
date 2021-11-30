@@ -19,6 +19,11 @@ import A8Practice from "./components/a8/Practice";
 import A8 from "./components/a8";
 import A8Build from "./components/a8/Build";
 
+
+import A9Practice from "./components/a9/Practice";
+import A9Build from "./components/a9/Build";
+import A9 from "./components/a9";
+
 function App() {
   return (
       <BrowserRouter>
@@ -51,8 +56,20 @@ function App() {
                   <A8Build/>
               </Route>
 
+
+              <Route path="/a9/practice" exact={true}>
+                  <A9Practice/>
+              </Route>
+              <Route path="/a9/twitter">
+                  <A9Build/>
+              </Route>
+
+
               <Route path="/" exact={true}>
+                  <A9/>
+                  <hr/>
                   <A8/>
+                  <hr/>
                   <A7/>
                   <hr/>
                   <A6/>
